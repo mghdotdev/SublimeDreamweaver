@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- 
+//////////////////////////////
+// Max Hegler - maxhegler.com
+//////////////////////////////
+-->
+<dict>
+	<!-- GENERIC -->
+	<key>name</key>
+	<string>mghDreamweaver</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#fff</string>
+				<key>foreground</key>
+				<string>#000</string>
+				<key>caret</key>
+				<string>#000</string>
+				<key>lineHighlight</key>
+				<string>#ccc</string>
+				<key>invisibles</key>
+				<string>#999</string>
+				<key>selection</key>
+				<string>#5EA0FF</string>
+				<key>selectionForeground</key>
+				<string>#fff</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Generic Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999</string>
+			</dict>
+		</dict>
+
+		<!-- HTML/XML -->
+		<dict>
+			<key>name</key>
+			<string>HTML Tags</string>
+			<key>scope</key>
+			<string>text.html meta.tag, text.xml meta.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML anchor tag</string>
+			<key>scope</key>
+			<string>text.html meta.tag.anchor - string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#060</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>HTML img tag</string>
+			<key>scope</key>
+			<string>text.html meta.tag.img - string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#909</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>HTML input/form/textarea/label/button etc... tags</string>
+			<key>scope</key>
+			<string>text.html meta.tag.form - string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f90</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>HTML table tags</string>
+			<key>scope</key>
+			<string>text.html meta.tag.table - string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#099</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>HTML Strings</string>
+			<key>scope</key>
+			<string>text.html string - source.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Tag</string>
+			<key>scope</key>
+			<string>source.css.embedded.html punctuation.definition.tag, source.css.embedded.html entity.name.tag.style, source.css.embedded entity.other.attribute-name - meta.selector</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#909</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCRIPT Tag</string>
+			<key>scope</key>
+			<string>source.js.embedded.html entity.other.attribute-name, entity.name.tag.script, source.js.embedded.html punctuation.definition.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Tag</string>
+			<key>scope</key>
+			<string>text.html source.php punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Special Characters</string>
+			<key>scope</key>
+			<string>text.html constant.character.entity, text.xml constant.character.entity</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000</string>
+			</dict>
+		</dict>
+		
+		<!-- JavaScript -->
+		<dict>
+			<key>name</key>
+			<string>JavaScript base</string>
+			<key>scope</key>
+			<string>source.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript String</string>
+			<key>scope</key>
+			<string>source.js string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Number</string>
+			<key>scope</key>
+			<string>source.js constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript ClientKeywords</string>
+			<key>scope</key>
+			<string>source.js support</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#909</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript ReservedKeywords</string>
+			<key>scope</key>
+			<string>source.js keyword, source.js storage, source.js constant, source.js keyword.operator.new</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#009</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript FunctionKeywords</string>
+			<key>scope</key>
+			<string>source.js storage.type.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>JavaScript NativeKeywords</string>
+			<key>scope</key>
+			<string>source.js support.function.native, source.js support.function.js.firebug, source.js support.function.dom, source.js entity.name.type.instance, source.js support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#099</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>JavaScript Operator</string>
+			<key>scope</key>
+			<string>source.js keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Brackets/Bracers</string>
+			<key>scope</key>
+			<string>source.js meta.brace, source.js punctuation.definition.parameters, source.js variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#009</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript EntityName</string>
+			<key>scope</key>
+			<string>source.js entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Regexp</string>
+			<key>scope</key>
+			<string>source.js string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#060</string>
+			</dict>
+		</dict>
+
+
+		<!-- CSS -->
+		<dict>
+			<key>name</key>
+			<string>CSS base</string>
+			<key>scope</key>
+			<string>source.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Properties</string>
+			<key>scope</key>
+			<string>source.css meta.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Value</string>
+			<key>scope</key>
+			<string>source.css meta.property-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS String</string>
+			<key>scope</key>
+			<string>source.css string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#060</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS @import</string>
+			<key>scope</key>
+			<string>source.css meta.at-rule.import - string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS @media</string>
+			<key>scope</key>
+			<string>source.css meta.at-rule.media</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS important</string>
+			<key>scope</key>
+			<string>source.css keyword.other.important</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#f00</string>
+			</dict>
+		</dict>
+
+
+		<!-- PHP -->
+		<dict>
+			<key>name</key>
+			<string>PHP base</string>
+			<key>scope</key>
+			<string>source.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Comment</string>
+			<key>scope</key>
+			<string>source.php comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f90</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP String</string>
+			<key>scope</key>
+			<string>source.php string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP REGEX String</string>
+			<key>scope</key>
+			<string>source.php string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Number</string>
+			<key>scope</key>
+			<string>source.php constant.numeric, source.php constant.numeric.index</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Variable</string>
+			<key>scope</key>
+			<string>source.php variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#06F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keywords</string>
+			<key>scope</key>
+			<string>source.php keyword, source.php support.function.construct</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#060</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Storage / Operators / Support</string>
+			<key>scope</key>
+			<string>source.php keyword.operator - keyword.operator.logical, source.php storage, source.php support</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Array Indexing Fix</string>
+			<key>scope</key>
+			<string>keyword.operator.index-start.php, keyword.operator.index-end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP True/False</string>
+			<key>scope</key>
+			<string>source.php support.constant, source.php constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#060</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>750AEFCD-88F3-4E2C-9560-1CF215A393C8</string>
+</dict>
+</plist>
