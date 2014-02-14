@@ -12,15 +12,26 @@ maxhegler.com
 
 // HOW TO INSTALL
 
-1. Place the 'mghDreamweaver' folder into your Packages folder.
+Download both folders:
+  
+  Language Edits
+  mghDreamweaver
+  
+First place the mghDreamweaver folder into your packages folder. This folder is located at:
 
+    (Windows) Data/Packages/
+    (Mac) ~/Library/Application Support/Sublime Text 2/Packages/
+  
+After copying the mghDreamweaver folder to this location, browse the Packages folder and find a folder called HTML and Javascript.
+  
+    HTML
+    (Windows) Data/Packages/HTML/
+    (Mac) ~/Library/Application Support/Sublime Text 2/Packages/HTML/
+  
+    Javascript
+    (Windows) Data/Packages/Javascript/
+    (Mac) ~/Library/Application Support/Sublime Text 2/Packages/Javascript/
+  
+Open up the Language Edits folder bundled with the mghDreamwever folder and copy the respective .tmLanguage files to their appropriate package folders listed above.
 
-2. Inside the HTML folder in your Packages folder, rename 'HTML.tmLanguage' to 'HTML_original.tmLanguage'.
-
-3. Drop the modified 'HTML.tmLanguage' file, located in '/Language Edits/', to the HTML folder in 'Data/Packages/HTML'.
-
-
-
-4. Inside the JavaScript folder in your Packages folder, rename 'JavaScript.tmLanguage' to 'JavaScript_original.tmLanguage'.
-
-5. Drop the modified 'JavaScript.tmLanguage' file, located in '/Language Edits/', to 'Data/Packages/JavaScript'.
+These files are edited .tmLanguage files that allow the theme file to highlight custom elements to fit Dreamweaver's unique color rules. e.g. input, form, a, css and script tags.
