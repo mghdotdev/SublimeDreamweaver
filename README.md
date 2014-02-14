@@ -22,7 +22,7 @@ First place the mghDreamweaver folder into your packages folder. This folder is 
     (Windows) Data/Packages/
     (Mac) ~/Library/Application Support/Sublime Text 2/Packages/
   
-After copying the mghDreamweaver folder to this location, browse the Packages folder and find a folder called HTML and JavaScript.
+After copying the mghDreamweaver folder to this location, browse the Packages folder and find a folder called HTML and JavaScript. The paths are:
   
     HTML
     (Windows) Data/Packages/HTML/
