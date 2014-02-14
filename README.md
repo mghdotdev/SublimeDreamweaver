@@ -22,15 +22,15 @@ First place the mghDreamweaver folder into your packages folder. This folder is 
     (Windows) Data/Packages/
     (Mac) ~/Library/Application Support/Sublime Text 2/Packages/
   
-After copying the mghDreamweaver folder to this location, browse the Packages folder and find a folder called HTML and Javascript.
+After copying the mghDreamweaver folder to this location, browse the Packages folder and find a folder called HTML and JavaScript.
   
     HTML
     (Windows) Data/Packages/HTML/
     (Mac) ~/Library/Application Support/Sublime Text 2/Packages/HTML/
   
     Javascript
-    (Windows) Data/Packages/Javascript/
-    (Mac) ~/Library/Application Support/Sublime Text 2/Packages/Javascript/
+    (Windows) Data/Packages/JavaScript/
+    (Mac) ~/Library/Application Support/Sublime Text 2/Packages/JavaScript/
   
 Open up the Language Edits folder bundled with the mghDreamwever folder and copy the respective .tmLanguage files to their appropriate package folders listed above.
 
