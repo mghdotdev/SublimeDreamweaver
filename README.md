@@ -36,7 +36,8 @@ Open up the Language Edits folder bundled with the mghDreamwever folder and copy
 
 These files are edited .tmLanguage files that allow the theme file to highlight custom elements to fit Dreamweaver's unique color rules. e.g. input, form, a, css and script tags.
 
-Click here to donate to this and future projects!
-Thank you!
+Click here to donate to this and future projects! Thank you!
+<br>
+
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=JUFG29YCHP7NG&lc=US&item_name=Max%20Hegler&item_number=git&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="PayPal - The safer, easier way to pay online!"/></a>
 
