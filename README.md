@@ -14,7 +14,8 @@ maxhegler.com
 
 Download both folders:
   
-  Language Edits
+  Language-Edits
+  <br>
   mghDreamweaver
   
 First place the mghDreamweaver folder into your packages folder. This folder is located at:
