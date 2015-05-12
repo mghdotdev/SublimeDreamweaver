@@ -9,4 +9,6 @@ Need help transitioning from Dreamweaver's amazing color Scheme? When I first st
 
 In addition, it focuses styling PHP, CSS and JavaScript differently than one another.
 
+---
+
 ## How to Install
