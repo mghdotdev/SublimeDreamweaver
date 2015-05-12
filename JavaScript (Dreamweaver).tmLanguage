@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>js</string>
+		<string>htc</string>
+		<string>jsx</string>
+	</array>
+	<key>name</key>
+	<string>JavaScript (Dreamweaver)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Native Functions</string>
+			<key>match</key>
+			<string>\.(replace|indexof|setTimeout|setInterval|select|getSelection)\b</string>
+			<key>name</key>
+			<string>support.function.native.js</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Include JavaScript Language</string>
+			<key>include</key>
+			<string>source.js</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.js.dreamweaver</string>
+	<key>uuid</key>
+	<string>4cb55bb9-c664-4bdb-9c97-13b2b5c5e5bb</string>
+</dict>
+</plist>
