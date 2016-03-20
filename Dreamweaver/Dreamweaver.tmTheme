@@ -384,6 +384,28 @@
 		<!-- PHP -->
 		<dict>
 			<key>name</key>
+			<string>PHP Tag Block</string>
+			<key>scope</key>
+			<string>embedding.php text.html.basic meta.embedded.block.php</string>
+			<key>settings</key>
+			<dict>			
+				<key>foreground</key>
+				<string>#f00</string>
+			</dict>
+		</dict>				
+		<dict>
+			<key>name</key>
+			<string>PHP Tag Line</string>
+			<key>scope</key>
+			<string>embedding.php text.html.basic meta.embedded.line.php</string>
+			<key>settings</key>
+			<dict>				
+				<key>foreground</key>
+				<string>#f00</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
 			<string>PHP base</string>
 			<key>scope</key>
 			<string>source.php</string>
